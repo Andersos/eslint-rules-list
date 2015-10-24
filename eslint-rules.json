@@ -1,0 +1,9 @@
+[
+    {
+        "name": "comma-dangle",
+        "description": "disallow or enforce trailing commas",
+        "link": "http://eslint.org/docs/rules/comma-dangle",
+        "recommended": true,
+        "type": "Possible Errors"
+    }
+]

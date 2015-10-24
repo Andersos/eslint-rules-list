@@ -1,0 +1,6 @@
+{
+    "extends": "andersos",
+    "env": {
+        "mocha": true
+    }
+}

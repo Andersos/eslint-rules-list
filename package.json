@@ -1,0 +1,27 @@
+{
+  "name": "eslint-rules",
+  "version": "0.0.0",
+  "description": "A list of ESlint rules",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andersos/eslint-rules.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Anders Olsen Sandvik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andersos/eslint-rules/issues"
+  },
+  "homepage": "https://github.com/Andersos/eslint-rules#readme",
+  "devDependencies": {
+    "eslint": "^1.7.3",
+    "eslint-config-andersos": "^0.1.1",
+    "mocha": "^2.3.3"
+  }
+}
