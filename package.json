@@ -4,7 +4,9 @@
   "description": "A list of ESlint rules",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "test": "npm run lint && mocha test.js",
+    "lint": "eslint .",
+    "tdd": "mocha -w test.js"
   },
   "repository": {
     "type": "git",
