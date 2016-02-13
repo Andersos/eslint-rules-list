@@ -1,5 +1,5 @@
 {
-  "name": "eslint-rules",
+  "name": "eslint-rules-list",
   "version": "0.1.0",
   "description": "A list of ESlint rules",
   "main": "index.js",
