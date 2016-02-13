@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/Andersos/eslint-rules#readme",
   "devDependencies": {
-    "eslint": "^1.7.3",
-    "eslint-config-andersos": "^0.1.1",
+    "eslint-config-andersos": "^0.2.0",
     "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "eslint": "^2.0.0"
   }
 }
