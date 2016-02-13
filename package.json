@@ -4,9 +4,11 @@
   "description": "A list of ESlint rules",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint && mocha test.js",
     "lint": "eslint .",
-    "tdd": "mocha -w test.js"
+    "postversion": "git push --tags origin master",
+    "prepublish": "npm prune && npm test",
+    "tdd": "mocha -w test.js",
+    "test": "npm run lint && mocha test.js"
   },
   "repository": {
     "type": "git",
